@@ -20,6 +20,10 @@ local mobs = {
     {id = "spawners_mobs:mummy", name = "Mummy"},
     {id = "spawners_mobs:uruk_hai", name = "Uruk Hai"},
     {id = "mobs_bat:bat", name = "Bat"},
+    -- Mobs Sharks
+    {id = "mobs_sharks:shark_lg", name = "Shark Large"},
+    {id = "mobs_sharks:shark_md", name = "Shark Medium"},
+    {id = "mobs_sharks:shark_sm", name = "Shark Small"},
 }
 
 local xp_amounts = {
@@ -41,6 +45,10 @@ local xp_amounts = {
     ["spawners_mobs:mummy"] = 14,
     ["spawners_mobs:uruk_hai"] = 14,
     ["mobs_bat:bat"] = 14,
+    -- Mobs Sharks
+    ["mobs_sharks:shark_lg"] = 14,
+    ["mobs_sharks:shark_md"] = 7,
+    ["mobs_sharks:shark_sm"] = 3,
 }
 
 minetest.register_on_mods_loaded(function()
