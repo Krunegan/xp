@@ -24,6 +24,13 @@ local mobs = {
     {id = "mobs_sharks:shark_lg", name = "Shark Large"},
     {id = "mobs_sharks:shark_md", name = "Shark Medium"},
     {id = "mobs_sharks:shark_sm", name = "Shark Small"},
+    -- Mobs Skeleton
+    {id = "mobs_skeletons:skeleton", name = "Skeleton"},
+    {id = "mobs_skeletons:skeleton_archer", name = "Archer Skeleton"},
+    {id = "mobs_skeletons:skeleton_archer_dark", name = "Dark Archer Skeleton"},
+    -- Mobs Ghost
+    {id = "mobs_ghost_redo:ghost", name = "Ghost"},
+    
 }
 
 local xp_amounts = {
@@ -49,6 +56,12 @@ local xp_amounts = {
     ["mobs_sharks:shark_lg"] = 14,
     ["mobs_sharks:shark_md"] = 7,
     ["mobs_sharks:shark_sm"] = 3,
+    -- Mobs Skeleton
+    ["mobs_skeletons:skeleton"] = 5,
+    ["mobs_skeletons:skeleton_archer"] = 7,
+    ["mobs_skeletons:skeleton_archer_dark"] = 9,
+    -- Mobs Ghost
+    ["mobs_ghost_redo:ghost"] = 5,
 }
 
 minetest.register_on_mods_loaded(function()
