@@ -16,3 +16,5 @@ moreores?
 lapis?
 atium?
 mobs_sharks?
+mobs_skeletons?
+mobs_ghost_redo?
