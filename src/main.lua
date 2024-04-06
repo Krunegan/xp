@@ -79,7 +79,10 @@ function xp.add_xp(player, XP)
     end
     if temp ~= level then
         minetest.chat_send_all("*** Server: " .. minetest.colorize("#01B5F7", name) .. " has reached level " .. minetest.colorize("orange", level) .. ", " .. minetest.colorize("#1fe600", "Congratulations!"))
-        local currentRank
+        if minetest.get_modpath("relay_mod") then
+			sendToDiscord("***+Server:+" .. name .. "+has+reached+level+" .. level .. ",+Congratulations!")
+		end
+		local currentRank
         for _, rank in ipairs(xp.ranks) do
             if level >= rank.range[1] and level <= rank.range[2] then
                 currentRank = rank
