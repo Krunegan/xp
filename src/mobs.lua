@@ -30,7 +30,16 @@ local mobs = {
     {id = "mobs_skeletons:skeleton_archer_dark", name = "Dark Archer Skeleton"},
     -- Mobs Ghost
     {id = "mobs_ghost_redo:ghost", name = "Ghost"},
-    
+    -- Zombies4Test
+    {id = "walkingzombie:walkingzombie", name = "Walking Zombie"},
+    {id = "minerzombie:minerzombie", name = "Miner Zombie"},
+    {id = "survivorzombie:survivorzombie", name = "Survivor Zombie"},
+    {id = "lumberjackzombie:lumberjackzombie", name = "Lumberjack Zombie"},
+    {id = "doctorzombie:doctorzombie", name = "Doctor Zombie"},
+    {id = "runner:runner", name = "Runner Zombie"},
+    {id = "crawlerzombie:crawlerzombie", name = "Crawler Zombie"},
+    {id = "spitterzombie:spitterzombie", name = "Spitter Zombie"},
+    {id = "tankzombie:tankzombie", name = "Tank Zombie"},
 }
 
 local xp_amounts = {
@@ -62,6 +71,16 @@ local xp_amounts = {
     ["mobs_skeletons:skeleton_archer_dark"] = 9,
     -- Mobs Ghost
     ["mobs_ghost_redo:ghost"] = 5,
+    -- Zombies4Test
+    ["walkingzombie:walkingzombie"] = 7,
+    ["minerzombie:minerzombie"] = 7,
+    ["survivorzombie:survivorzombie"] = 7,
+    ["lumberjackzombie:lumberjackzombie"] = 4,
+    ["doctorzombie:doctorzombie"] = 4,
+    ["runner:runner"] = 7,
+    ["crawlerzombie:crawlerzombie"] = 3,
+    ["spitterzombie:spitterzombie"] = 45,
+    ["tankzombie:tankzombie"] = 100,
 }
 
 minetest.register_on_mods_loaded(function()
